@@ -154,15 +154,8 @@ export default function Home() {
 
         <section className="section">
           <div className="wrap">
-            <h2 className="sec-title">Thợ điện nước phục vụ khu vực {site.area}</h2>
-            <p className="sec-sub">Nhận sửa điện, sửa nước, thông nghẹt tại nhà trong toàn thị xã {site.area}, {site.province}. Hoạt động {site.hours}.</p>
-            <div className="chips">
-              {wards.map((w) => (
-                <span key={w} className="chip">
-                  📍 {w}
-                </span>
-              ))}
-            </div>
+            <h2 className="sec-title">Thợ điện nước phục vụ khu vực {site.area}, Thủ Dầu Một, Tân Uyên</h2>
+            <p className="sec-sub">Nhận sửa điện, sửa nước, thông nghẹt tại nhà khu vực {site.area}, Thủ Dầu Một, Tân Uyên – {site.province}.</p>
           </div>
         </section>
 
