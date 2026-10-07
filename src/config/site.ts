@@ -8,7 +8,7 @@ export const site = {
   hours: "7h – 21h hằng ngày",
   eta: "~30 phút",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://suadiennuocbencat.vercel.app",
-  gadsId: process.env.NEXT_PUBLIC_GADS_ID ?? "",
+  gadsId: process.env.NEXT_PUBLIC_GADS_ID || "AW-18450878021",
   gadsCallLabel: process.env.NEXT_PUBLIC_GADS_CALL_LABEL ?? "",
   gadsZaloLabel: process.env.NEXT_PUBLIC_GADS_ZALO_LABEL ?? "",
 };
